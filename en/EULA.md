@@ -1,35 +1,46 @@
 # End User License Agreement (EULA) - NotyAlert
 
-**Last updated**: November 5, 2026  
-**Application**: NotyAlert (Android)
+**Last updated**: November 6, 2026  
+**Application**: NotyAlert (Android)  
+**Developer**: Mario Lira (<mario.alberto.lira.zamora@gmail.com>)
 
 ---
 
-### 1. License Grant & Actual Scope of the Application
-You are granted a personal, non-exclusive, non-transferable, and revocable license to install and use **NotyAlert** on your personal Android devices associated with your Google Play Store user account.  
-You acknowledge that the application is solely an **everyday reminder tool that operates by sending standard notifications to your phone** to remind you of what you have scheduled, and is **NOT an alarm clock or an alarm system**.
+### 1. License Grant (Licensed, Not Sold) & Software Scope
+Subject to your lawful purchase and download of the application through the Google Play Store, you are granted a personal, individual, non-exclusive, non-transferable, revocable, and non-sublicensable license to install and use **NotyAlert** on personal Android devices associated with your Google Play Store user account.  
+**THE SOFTWARE IS LICENSED, NOT SOLD.** Your purchase of NotyAlert via Google Play confers only a strictly regulated right of use under this agreement and does not constitute a sale of the application, its underlying source code, or any associated intellectual property rights.  
+You acknowledge and agree that NotyAlert is an informational personal organization utility that schedules local reminders using the Android system scheduler (`AlarmManager`) and delivers standard visual and auditory notifications (`POST_NOTIFICATIONS`), including user-configured persistence modes (*Nagging Mode*). NotyAlert **is NOT an emergency continuous hardware alarm system or a mission-critical safety tool**.
 
-### 2. Intellectual Property
-All intellectual property rights, copyrights, source code, logos, trademarks, software architecture, and visual designs of NotyAlert belong exclusively to the developer of NotyAlert, protected under the laws of the United Mexican States and applicable international treaties.
+### 2. Intellectual Property Rights
+All intellectual property rights, copyrights, source code, object code, algorithms, graphic design, visual assets, trademarks, logos, software architecture, and related documentation of NotyAlert belong exclusively to the developer, Mario Lira, protected under the laws of the United Mexican States (including the Federal Copyright Law and the Federal Law for the Protection of Industrial Property) and applicable international copyright treaties and conventions. The license granted herein does not transfer any title or ownership rights.
 
-### 3. License Restrictions
-You are strictly prohibited from:
-- Decompiling, reverse engineering, or attempting to extract source code for unauthorized commercial exploitation.
-- Commercializing, redistributing, sublicensing, selling, or renting the application or modified copies thereof.
-- Removing or altering any proprietary copyright, author attribution, or trademark notices.
+### 3. Strict License Restrictions
+You are expressly prohibited from engaging in, directly or indirectly, on your own or through any third party, whether for commercial, non-commercial, educational, research, personal, or non-profit purposes:
+- Decompiling, disassembling, decrypting, reverse engineering, or attempting to derive the source code, architecture, or underlying logic of NotyAlert.
+- Extracting, cloning, sharing, or redistributing the application executable (.apk), app bundle (.aab), binary components, or multimedia assets.
+- Modifying, adapting, translating, merging, or creating derivative works based on the application or any part thereof.
+- Sublicensing, renting, leasing, selling, reselling, distributing, or publishing NotyAlert on alternative app marketplaces, forums, unauthorized repositories, or file-sharing networks.
+- Bypassing, disabling, circumventing, or tampering with any technological protection measure, license verification check, or digital rights management (DRM) mechanism implemented in the application or provided by Google Play services.
+- Removing, altering, obscuring, or deleting any proprietary copyright notices, author attributions, trademarks, or legal disclaimers included in the software.
 
-### 4. Unauthorized Use Cases (This App is NOT for Medication or Health) ⚠️
-> **EXPRESS WARNING REGARDING THE PURPOSE OF THE APP**:  
-> **NotyAlert is NOT designed, built, or authorized for reminding you to take medication**, medical treatments, pharmacological doses, clinical appointments, or critical/life-support activities.
+### 4. Unauthorized Use Cases & High-Risk Activities Exclusion ⚠️
+> **EXPRESS PURPOSE WARNING & EXCLUSION OF HIGH-RISK ACTIVITIES**:  
+> NotyAlert is designed strictly for everyday, low-criticality personal task reminders.  
+> **NotyAlert is expressly PROHIBITED for use in:**
+> 1. **Healthcare & Medical Treatments**: NotyAlert is **NOT designed, validated, certified, or authorized for reminding you to take medication**, pharmaceutical dosages, insulin treatments, clinical appointments, health monitoring, or life-support activities.
+> 2. **Mission-Critical & Safety-Critical Environments**: It is not authorized for vehicle operation, heavy machinery, transportation systems, navigation, industrial hazard monitoring, fire detection, or any environment where delayed or missed alerts could reasonably lead to death, physical injury, or catastrophic property damage.
+> 3. **Peremptory Legal or Financial Deadlines**: It must not be relied upon for judicial statute of limitations, statutory tax filings, financial market closes, or high-value commercial transactions.
 >
-> 1. **Why it is not for these cases**: The application only sends standard notifications to your phone to remind you of scheduled notes. Such notifications may not sound, may be delayed, or may fail to arrive due to silent mode, *"Do Not Disturb"* mode, dead battery, or the phone's own battery-saving restrictions.
-> 2. **Unlicensed use and sole user risk**: Using the application to remember medication or medical treatments is an **unauthorized use outside the purpose for which the app was built**. If, despite this express prohibition, you choose to schedule your medication in the app and for any reason or circumstance fail to take your medication, **you do so at your sole and absolute risk**, fully and irrevocably releasing the developer from any liability or harm.
+> **Sole User Risk**: Timely notification delivery depends on technical circumstances outside the application's control (OEM aggressive battery task killers, silent mode, "Do Not Disturb" settings, low battery, or device reboot). Any use of NotyAlert for any of the prohibited purposes above constitutes an **unauthorized use outside the scope of this license and is undertaken at your sole, absolute, and exclusive risk**, unconditionally and irrevocably releasing the developer from any liability or damages.
 
-### 5. License Termination
-This license is effective until terminated. Your rights under this license will terminate automatically without notice if you fail to comply with any of its terms or use the application for the unauthorized use cases described in Section 4. Upon termination, you must uninstall the application and cease all usage.
+### 5. License Termination & Survival of Terms
+This license is effective upon downloading or using the software and remains in force until terminated. Your rights under this license will terminate automatically without notice if you fail to comply with any terms or restrictions of this agreement, or if you use the application for any unauthorized use case set forth in Section 4.  
+Upon license termination, you must immediately uninstall NotyAlert from all your devices and destroy all whole or partial copies. Termination of this license due to user breach does not entitle you to any refund.  
+**Survival Clause**: The provisions in Section 2 (Intellectual Property), Section 4 (High-Risk Activities Exclusion), Section 6 (Governing Law & Jurisdiction), and the liability limitations and indemnification provisions established in the Terms and Conditions shall indefinitely survive any termination or expiration of this agreement.
 
-### 6. Governing Law and Jurisdiction (Mexican Law)
-This license agreement is strictly governed by and construed in accordance with the laws and regulations in force in the **United Mexican States**, including the Federal Copyright Law (LFDA), the Federal Law for the Protection of Industrial Property (LFPPI), and the Federal Civil Code, as well as applicable international treaties. Any dispute shall be submitted exclusively to the competent courts of the United Mexican States.
+### 6. Governing Law, Severability & Jurisdiction
+This license agreement is strictly governed by and construed in accordance with the federal laws of the **United Mexican States**, including the Federal Copyright Law (LFDA), the Federal Law for the Protection of Industrial Property (LFPPI), and the Federal Civil Code. Any dispute arising out of or in connection with this agreement shall be submitted exclusively to the competent courts of the United Mexican States, waiving any other jurisdiction by reason of current or future domicile.  
+**Severability**: If any provision of this agreement is held invalid, illegal, or unenforceable by a court of competent jurisdiction, that provision shall be modified to the minimum extent necessary to make it valid and enforceable, or severed if legally required, and the remaining provisions shall remain in full force and effect. Nothing in this agreement diminishes any non-waivable statutory rights granted to consumers under the mandatory laws of their home country.
 
 ### 7. Open Source Components & Copyright Notices
 This software uses open-source components licensed under the **Apache License, Version 2.0**. Below is the list of included libraries and their respective copyright holders:

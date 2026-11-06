@@ -1,51 +1,54 @@
 # Política de Privacidad - NotyAlert
 
-**Última actualización**: 5 de Noviembre de 2026  
-**Aplicación**: NotyAlert (Android)
+**Última actualización**: 6 de Noviembre de 2026  
+**Aplicación**: NotyAlert (Android)  
+**Desarrollador y Responsable**: Mario Lira (<mario.alberto.lira.zamora@gmail.com>)
 
 ---
 
-En **NotyAlert**, valoramos y respetamos profundamente tu privacidad. La aplicación fue diseñada y desarrollada bajo el principio fundamental de **Privacidad por Diseño (Privacy by Design)**, funcionamiento 100% local (*offline-first*) y en estricto apego a la **Ley Federal de Protección de Datos Personales en Posesión de los Particulares (LFPDPPP)**, su Reglamento y demás normatividad aplicable en los **Estados Unidos Mexicanos**.
+En **NotyAlert**, la protección de tu intimidad y privacidad es una prioridad absoluta. La aplicación ha sido concebida, diseñada e implementada bajo el estándar de **Privacidad por Diseño y por Defecto (*Privacy by Design and by Default*)**, operando con una arquitectura 100% local (*offline-first*) y en estricto cumplimiento con la **Ley Federal de Protección de Datos Personales en Posesión de los Particulares (LFPDPPP)** de los **Estados Unidos Mexicanos**, el **Reglamento General de Protección de Datos (RGPD/GDPR)** de la Unión Europea y las directrices de Seguridad de los Datos (*Data Safety*) de Google Play Store.
 
-Esta Política de Privacidad describe cómo se gestiona la información en la aplicación móvil **NotyAlert** para Android.
+### 1. Cero Recopilación de Datos y Arquitectura de Red Cero (*Zero-Network*)
+- **Inexistencia de Servidores Externos y Ausencia de Permiso de Red**: NotyAlert **no** recopila, almacena, transmite ni procesa ningún dato personal, identificador de dispositivo ni contenido de usuario en servidores remotos. Como salvaguarda técnica verificable, la aplicación **carece por completo del permiso de red `android.permission.INTERNET` en su código fuente y manifiesto**, por lo que es técnicamente imposible que la app envíe información fuera de tu dispositivo.
+- **Sin Cuentas ni Registro**: No se requiere crear cuenta, iniciar sesión ni proporcionar nombres, correos electrónicos, números telefónicos o perfiles de redes sociales.
+- **Contenido Confidencial de los Recordatorios**: Los títulos, notas descriptivas, frecuencias, horarios y colores de tus recordatorios permanecen confinados en el almacenamiento protegido de tu propio teléfono.
 
-### 1. Cero Recopilación de Información Personal (Zero Data Collection)
-- **Sin servidores externos**: NotyAlert **no** recopila, no transmite a servidores remotos, no vende, no alquila ni comparte ningún tipo de información personal, datos identificativos ni telemetría.
-- **Sin cuentas ni registro**: La aplicación no requiere que crees una cuenta, proporciones un correo electrónico, número de teléfono ni inicies sesión con ningún servicio de terceros.
-- **Contenido de los recordatorios**: Los títulos, notas, horarios, frecuencias de recordatorio y preferencias que ingresas permanecen exclusivamente en tu dispositivo.
+### 2. Almacenamiento Local, Respaldo y Delimitación en Funciones para Compartir
+- **Almacenamiento Seguro en Dispositivo**: Toda la información se almacena localmente en una base de datos privada SQLite gestionada a través de la biblioteca Jetpack Room en el sandbox interno asignado por Android a NotyAlert. La aplicación tiene deshabilitado el respaldo automático en la nube a nivel de sistema operativo (`android:allowBackup="false"`).
+- **Exportación Local (JSON y Códigos QR)**: Las funciones de respaldo o transferencia de recordatorios mediante archivos `.json` o códigos QR se generan de forma 100% local en tu dispositivo.
+- **Uso de Funciones Nativas para Compartir (`FileProvider`)**: Si decides voluntariamente compartir un código QR o exportar un archivo de respaldo mediante el selector de Android hacia aplicaciones de terceros (por ejemplo, clientes de correo electrónico, mensajería instantánea o servicios de nube personales), el tratamiento y transmisión de dichos datos pasará a regirse exclusivamente por los términos y políticas de privacidad de los proveedores terceros que hayas seleccionado, cesando en ese acto el control y la responsabilidad de NotyAlert.
 
-### 2. Almacenamiento Local y Control Total
-- Toda la información generada por el usuario se guarda exclusivamente en la base de datos interna SQLite/Room alojada en el almacenamiento privado de la app en tu teléfono Android.
-- Las funciones de respaldo o migración (exportación/importación en formato JSON o transferencia entre dispositivos mediante códigos QR cifrados) se ejecutan de manera 100% local en tu dispositivo, bajo tu explícita acción y control.
+### 3. Permisos de Android Declarados y Justificación Técnica Estricta
+NotyAlert solicita de manera transparente y exclusiva los permisos de sistema estrictamente necesarios para su funcionamiento local:
 
-### 3. Permisos de Android y Naturaleza Basada en Notificaciones
-NotyAlert funciona enviando **notificaciones locales al teléfono** para recordarte lo que hayas programado (no es un reloj despertador sonoro de emergencia). Para ello solicita únicamente los permisos estrictamente necesarios:
-
-| Permiso | Justificación Técnica |
+| Permiso de Android | Justificación Técnica Específica |
 | :--- | :--- |
-| `POST_NOTIFICATIONS` | Permite mostrar en el teléfono las notificaciones de los recordatorios programados (Android 13+). |
-| `SCHEDULE_EXACT_ALARM` y `USE_EXACT_ALARM` | Requeridos por `AlarmManager` de Android para que el sistema operativo entregue la notificación del recordatorio en la fecha y hora programadas. |
-| `RECEIVE_BOOT_COMPLETED` | Permite al receptor del sistema restaurar y reprogramar automáticamente tus recordatorios activos si tu teléfono se reinicia o apaga. |
-| `CAMERA` *(Opcional)* | Utilizado exclusivamente para escanear códigos QR de respaldo o transferencia de recordatorios. La cámara opera en tiempo real; **ninguna foto o vídeo se graba, almacena ni transfiere**. |
-| `VIBRATE` | Proporciona respuesta háptica táctil en botones y calendario para una mejor experiencia de uso. |
-| `REQUEST_IGNORE_BATTERY_OPTIMIZATIONS` | Permite solicitar al sistema excluir a NotyAlert del cierre forzado en segundo plano por parte de capas agresivas de fabricantes (MIUI/HyperOS, One UI, EMUI) que bloquean el envío de notificaciones. |
-| `WAKE_LOCK` | Despierta brevemente la CPU en el instante programado para entregar la notificación del recordatorio al teléfono antes de volver al reposo. |
+| `android.permission.POST_NOTIFICATIONS` | Permite mostrar las notificaciones visuales y sonoras de los recordatorios en la barra de estado y pantalla de bloqueo (requerido a partir de Android 13+). |
+| `android.permission.SCHEDULE_EXACT_ALARM` | Faculta a la app a registrar temporizadores de alta precisión mediante `AlarmManager` para que el sistema operativo despierte la alerta en el segundo exacto programado. |
+| `android.permission.RECEIVE_BOOT_COMPLETED` | Permite que el receptor del sistema (`BootReceiver`) restablezca y reprograme automáticamente tus recordatorios activos con fecha futura si el teléfono se apaga o reinicia. |
+| `android.permission.WAKE_LOCK` | Permite activar la CPU durante fracciones de segundo en el instante exacto programado para procesar la entrega de la notificación antes de que el dispositivo vuelva a suspensión. |
+| `android.permission.VIBRATE` | Proporciona respuesta háptica física al interactuar con el calendario, botones y alarmas táctiles. |
+| `android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS` | Permite invitar al usuario a exentar a NotyAlert del cierre forzado por administradores agresivos de ahorro de batería OEM (MIUI/HyperOS, One UI, EMUI). |
+| `android.permission.CAMERA` *(Opcional)* | Empleado de manera exclusiva para escanear códigos QR generados por NotyAlert para la importación local de recordatorios. **El procesamiento de imágenes ocurre en tiempo real y volátil en memoria RAM mediante ZXing; ninguna imagen, fotografía ni vídeo se graba, almacena en disco ni transmite a servidores**. |
 
-### 4. Cero Rastreadores y Publicidad de Terceros
-- NotyAlert **no** incluye bibliotecas de análisis (como Firebase Analytics, Mixpanel o Google Analytics).
-- NotyAlert **no** contiene redes publicitarias (AdMob, Unity Ads, etc.).
-- NotyAlert **no** incluye SDKs de redes sociales ni rastreadores de comportamiento.
+### 4. Cero Rastreadores, Analíticas y Publicidad de Terceros
+- NotyAlert **no contiene** SDKs de analítica (sin Google Analytics, Firebase Analytics ni Mixpanel).
+- NotyAlert **no contiene** bibliotecas publicitarias (sin Google AdMob, Unity Ads, etc.).
+- NotyAlert **no contiene** rastreadores de comportamiento, telemetría comercial ni librerías de vinculación a redes sociales.
 
-### 5. Retención, Eliminación de Datos y Derechos ARCO
-En cumplimiento con los Derechos ARCO (Acceso, Rectificación, Cancelación y Oposición) previstos en la legislación mexicana (**LFPDPPP**) y estándares internacionales (GDPR), y dado que no mantenemos copias de tus datos en servidores:
-- Puedes consultar, editar o eliminar recordatorios individuales en cualquier momento dentro de la app.
-- Puedes eliminar permanentemente todos tus datos desde los ajustes de Android: `Ajustes > Aplicaciones > NotyAlert > Almacenamiento > Borrar datos`, o simplemente desinstalando la aplicación.
+### 5. Retención, Eliminación Definitiva de Datos y Derechos ARCO / RGPD
+De conformidad con los Derechos ARCO (Acceso, Rectificación, Cancelación y Oposición) bajo la legislación mexicana (LFPDPPP) y los derechos de supresión y portabilidad bajo el RGPD (GDPR):
+- **Acceso y Rectificación**: Tienes acceso directo y control inmediato sobre todos tus datos desde la interfaz de la app para modificar o consultar cualquier recordatorio.
+- **Eliminación Definitiva**: Puedes borrar recordatorios individuales en cualquier momento. Para eliminar de manera irreversible y definitiva todos los datos, ajustes y recordatorios almacenados por NotyAlert, basta con pulsar: `Ajustes del teléfono > Aplicaciones > NotyAlert > Almacenamiento > Borrar datos`, o bien **desinstalar la aplicación de tu dispositivo**. Al no existir copias en servidores remotos, la eliminación local es total, permanente e irrecuperable.
 
-### 6. Privacidad de Menores
-NotyAlert es apta para todo público y no recopila datos personales de menores ni de adultos. Al operar sin conexión ni almacenamiento externo, garantizamos un entorno digital completamente privado y seguro.
+### 6. Privacidad de Menores (COPPA y RGPD-K)
+NotyAlert no recopila datos de ningún tipo, por lo que es completamente segura para menores de edad. Cumple plenamente con la Children's Online Privacy Protection Act (COPPA), los principios del RGPD relativos a menores y la normativa mexicana de protección de datos.
 
-### 7. Legislación Aplicable y Jurisdicción
-Esta Política de Privacidad se rige e interpreta de conformidad con las leyes y normas vigentes en los **Estados Unidos Mexicanos**.
+### 7. Datos de Contacto del Responsable para Privacidad
+Para cualquier consulta, aclaración o solicitud relacionada con esta Política de Privacidad o con el ejercicio de tus derechos, puedes ponerte en contacto directo con el desarrollador responsable:  
+- **Responsable**: Mario Lira  
+- **Correo Electrónico de Contacto**: `mario.alberto.lira.zamora@gmail.com`  
+- **País**: Estados Unidos Mexicanos
 
-### 8. Cambios a esta Política y Contacto
-Nos reservamos el derecho de actualizar esta Política de Privacidad para reflejar mejoras en la app o modificaciones legales. Cualquier actualización será comunicada a través de Google Play Store y en el menú legal de la aplicación. Para dudas o soporte, utiliza los canales de contacto provistos en la ficha oficial de Google Play Store.
+### 8. Cambios a esta Política y Marco Regulatorio
+Esta Política de Privacidad se rige bajo las leyes vigentes en los **Estados Unidos Mexicanos** y directrices internacionales aplicables. Cualquier ajuste futuro derivado de cambios técnicos en el sistema Android se publicará a través de la ficha oficial en Google Play Store y en el menú legal de la aplicación.

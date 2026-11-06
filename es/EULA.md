@@ -1,35 +1,46 @@
 # Acuerdo de Licencia de Usuario Final (EULA) - NotyAlert
 
-**Última actualización**: 5 de Noviembre de 2026  
-**Aplicación**: NotyAlert (Android)
+**Última actualización**: 6 de Noviembre de 2026  
+**Aplicación**: NotyAlert (Android)  
+**Desarrollador**: Mario Lira (<mario.alberto.lira.zamora@gmail.com>)
 
 ---
 
-### 1. Concesión de Licencia y Alcance Real de la Aplicación
-Se te concede una licencia personal, no exclusiva, intransferible y revocable para instalar y utilizar **NotyAlert** en tus dispositivos personales con sistema operativo Android asociados a tu cuenta de usuario (Google Play Store).  
-El usuario reconoce que la aplicación es únicamente una herramienta de **recordatorios cotidianos que funciona enviando notificaciones simples al teléfono** para recordar lo que se haya programado, y **NO es un reloj despertador ni un sistema de alarmas**.
+### 1. Concesión de Licencia (Licenciado, no Vendido) y Alcance del Software
+Sujeto a la adquisición legal de la aplicación a través de Google Play Store, se te concede una licencia personal, individual, no exclusiva, intransferible, revocable y no sublicenciable para instalar y utilizar **NotyAlert** en dispositivos personales con sistema operativo Android vinculados a tu cuenta de Google Play Store.  
+**EL SOFTWARE SE OTORGA BAJO LICENCIA, NO SE VENDE.** La compra de NotyAlert a través de Google Play Store confiere únicamente un derecho de uso regulado por este contrato y no una venta de la aplicación, de su código fuente, ni de los derechos de propiedad intelectual subyacentes.  
+El usuario reconoce y acepta que NotyAlert es una herramienta informática de organización personal que programa recordatorios locales mediante el programador del sistema (`AlarmManager`) y genera notificaciones locales visuales y sonoras (`POST_NOTIFICATIONS`), incluyendo opciones de insistencia (*Nagging Mode*). NotyAlert **NO constituye un dispositivo físico de alarma sonora ininterrumpida de emergencia ni un sistema de seguridad de misión crítica**.
 
 ### 2. Propiedad Intelectual
-Todos los derechos de propiedad intelectual, derechos de autor, código fuente, logotipos, marcas, arquitectura de software y diseño visual de NotyAlert son de propiedad exclusiva del desarrollador de NotyAlert, protegidos por las leyes de los Estados Unidos Mexicanos y los tratados internacionales aplicables.
+Todos los derechos de propiedad intelectual, derechos de autor (copyright), código fuente, código objeto, algoritmos, interfaz gráfica, diseño visual, logotipos, marcas, arquitectura de software y documentación asociada a NotyAlert son y seguirán siendo propiedad exclusiva del desarrollador Mario Lira, encontrándose protegidos por las leyes de los Estados Unidos Mexicanos (incluyendo la Ley Federal del Derecho de Autor y la Ley Federal de Protección a la Propiedad Industrial) y por los convenios y tratados internacionales aplicables. La compra de la licencia no transfiere titularidad alguna sobre dichos derechos.
 
-### 3. Restricciones de la Licencia
-Queda estrictamente prohibido al usuario:
-- Descompilar, realizar ingeniería inversa o extraer el código fuente de la aplicación para explotación comercial no autorizada.
-- Comercializar, redistribuir, sublicenciar, revender o alquilar la aplicación o copias modificadas de la misma.
-- Remover o alterar las marcas de autoría, avisos de copyright o atribuciones incluidas en la aplicación.
+### 3. Restricciones Absolutas de la Licencia
+Queda expresamente prohibido al usuario, de manera directa o indirecta, por sí o a través de terceros, independientemente de que se persigan o no fines de lucro, comerciales, educativos, de investigación o personales:
+- Descompilar, desensamblar, descifrar, realizar ingeniería inversa o intentar de cualquier modo derivar el código fuente, la arquitectura o los algoritmos de NotyAlert.
+- Extraer, clonar o redistribuir el archivo ejecutable (.apk), paquetes de recursos (.aab), componentes binarios o recursos multimedia.
+- Modificar, adaptar, traducir, fusionar o crear obras derivadas basadas en la aplicación o en cualquiera de sus componentes.
+- Comercializar, sublicenciar, revender, alquilar, arrendar, prestar, distribuir o poner a disposición del público NotyAlert en tiendas alternativas, foros, repositorios no autorizados o redes de intercambio de archivos.
+- Burlar, desactivar, eludir o alterar cualquier medida tecnológica de protección, control de licencias o gestión de derechos digitales (DRM) implementada en la aplicación o provista por los servicios de Google Play.
+- Remover, alterar, ocultar o borrar cualquier aviso de derechos de autor, marcas comerciales, patentes o leyendas legales incluidas en el software.
 
-### 4. Casos de Uso NO Autorizados (Esta Aplicación NO es para Medicamentos ni Salud) ⚠️
-> **ADVERTENCIA EXPRESA SOBRE EL PROPÓSITO DE LA APP**:  
-> **NotyAlert NO está diseñada, creada ni autorizada para recordar la toma de medicamentos**, tratamientos médicos, dosis farmacológicas, citas clínicas ni actividades críticas o de soporte vital.
+### 4. Casos de Uso NO Autorizados y Exclusión de Actividades de Alto Riesgo ⚠️
+> **ADVERTENCIA EXPRESA SOBRE EL PROPÓSITO DE LA APP (HIGH-RISK ACTIVITIES EXCLUSION)**:  
+> NotyAlert ha sido desarrollada con fines exclusivamente informativos y de organización personal cotidiana de baja criticidad.  
+> **Queda expresamente prohibido el uso de NotyAlert en:**
+> 1. **Salud y Tratamientos Médicos**: NotyAlert **NO está diseñada, calibrada, homologada ni autorizada para recordar la toma de medicamentos**, tratamientos médicos, dosis farmacológicas, inyecciones de insulina, citas clínicas críticas ni soporte vital.
+> 2. **Actividades de Misión Crítica y Seguridad**: No está diseñada ni autorizada para operación de vehículos, maquinaria pesada, transporte público, navegación, seguridad industrial, prevención de incendios ni ninguna actividad donde un retraso o falla técnica pueda poner en peligro la vida, salud, integridad física de las personas o causar daños catastróficos.
+> 3. **Plazos Legales o Financieros Irreversibles**: No debe dependerse de la aplicación para el cómputo de plazos procesales judiciales, vencimientos fiscales perentorios, cierres bursátiles o transacciones financieras de alto impacto.
 >
-> 1. **Por qué no es para esos casos**: La aplicación únicamente envía notificaciones estándar al teléfono para recordar notas programadas. Dichas notificaciones pueden no sonar, retrasarse o no llegar por modo silencio, modo *"No molestar"*, falta de batería o restricciones de ahorro de energía del propio teléfono.
-> 2. **Uso fuera de licencia y riesgo exclusivo del usuario**: Usar la aplicación para recordar medicinas o tratamientos médicos es un **uso NO autorizado y ajeno al propósito para el cual fue creada la app**. Si a pesar de esta prohibición expresa el usuario decide programar su medicina en la aplicación y, por cualquier motivo o circunstancia, no toma su medicamento, **lo hace bajo su absoluto y exclusivo riesgo**, deslindando total e irrevocablemente al desarrollador de cualquier responsabilidad o daño.
+> **Riesgo Exclusivo del Usuario**: La entrega oportuna de avisos depende de factores técnicos ajenos a la app (ajustes de ahorro de batería OEM, modo silencio, modo "No Molestar", nivel de carga o reinicio del dispositivo). El uso de la aplicación en cualquiera de los supuestos prohibidos anteriores constituye un **uso no autorizado que transgrede este contrato y se realiza bajo la exclusiva cuenta, costo y riesgo del usuario**, liberando total e irrevocablemente al desarrollador de cualquier responsabilidad civil, médica, penal o indemnizatoria.
 
-### 5. Terminación de la Licencia
-Esta licencia es efectiva hasta su terminación. Tus derechos bajo esta licencia terminarán automáticamente y sin previo aviso si incumples cualquiera de sus términos o si utilizas la aplicación para los casos de uso no autorizados descritos en la cláusula 4. Al terminar la vigencia, deberás desinstalar la aplicación y cesar todo uso de la misma.
+### 5. Terminación y Subsistencia de Cláusulas
+Esta licencia es efectiva desde el momento en que se descarga o utiliza la aplicación y permanecerá vigente hasta su terminación. Tus derechos bajo esta licencia se revocarán automáticamente y sin necesidad de requerimiento previo si incumples cualquiera de los términos o restricciones de este contrato, o si utilizas la aplicación para los casos de uso no autorizados descritos en la Cláusula 4.  
+A la revocación o terminación de la licencia, deberás desinstalar inmediatamente NotyAlert de todos tus dispositivos y destruir toda copia total o parcial del software. La revocación de la licencia por incumplimiento no dará derecho a ningún tipo de reembolso o restitución económica.  
+**Subsistencia (*Survival Clause*)**: Las disposiciones contenidas en las Cláusulas 2 (Propiedad Intelectual), 4 (Exclusión de Actividades de Alto Riesgo), 6 (Ley Aplicable y Jurisdicción) y los descargos de responsabilidad e indemnidad previstos en los Términos y Condiciones sobrevivirán a la terminación de este contrato por cualquier causa.
 
-### 6. Ley Aplicable y Jurisdicción (Normas Mexicanas)
-Este acuerdo de licencia se regirá e interpretará estrictamente conforme a las leyes y normas vigentes en los **Estados Unidos Mexicanos**, incluyendo la **Ley Federal del Derecho de Autor (LFDA)**, la **Ley Federal de Protección a la Propiedad Industrial (LFPPI)** y el **Código Civil Federal**, así como los tratados internacionales correspondientes. Cualquier controversia será sometida exclusivamente a la jurisdicción de los tribunales competentes en los Estados Unidos Mexicanos.
+### 6. Ley Aplicable, Divisibilidad y Jurisdicción
+Este contrato de licencia se regirá e interpretará conforme a la legislación federal vigente en los **Estados Unidos Mexicanos**, especialmente la Ley Federal del Derecho de Autor (LFDA), la Ley Federal de Protección a la Propiedad Industrial (LFPPI) y el Código Civil Federal. Toda controversia o reclamación derivada o relacionada con este acuerdo se someterá de manera exclusiva a la jurisdicción de los tribunales federales o del fuero común competentes en los Estados Unidos Mexicanos, renunciando a cualquier otro fuero que pudiera corresponder por razón de domicilio presente o futuro.  
+**Divisibilidad (*Severability*)**: Si cualquier tribunal competente determinara que alguna disposición de este contrato es nula, inválida o inaplicable, dicha disposición se modificará en la mínima medida necesaria para hacerla válida y ejecutable, o bien se tendrá por no puesta si la ley local así lo exige, permaneciendo todas las demás cláusulas plenamente vigentes y surtiendo plenos efectos legales. Nada de lo estipulado en este acuerdo afectará los derechos irrenunciables que asistan al usuario conforme a las normas imperativas de protección al consumidor de su país de residencia.
 
 ### 7. Componentes de Código Abierto y Avisos de Derechos de Autor
 Este software utiliza componentes de código abierto licenciados bajo la **Apache License, Version 2.0**. A continuación se listan las librerías incluidas y sus respectivos titulares de derechos de autor:
@@ -78,7 +89,7 @@ TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION
     "control" means (i) the power, direct or indirect, to cause the
     direction or management of such entity, whether by contract or
     otherwise, or (ii) ownership of fifty percent (50%) or more of the
-    outstanding shares, or (ii) beneficial ownership of such entity.
+    outstanding shares, or (iii) beneficial ownership of such entity.
 
     "You" (or "Your") shall mean an individual or Legal Entity
     exercising permissions granted by this License.
